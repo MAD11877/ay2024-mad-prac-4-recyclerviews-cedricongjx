@@ -67,13 +67,14 @@
         android:paddingBottom="10dp"
         android:textSize="14sp"
         android:textAlignment="center"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        android:text="Lorem ipsum dolor sit amet, consectetur\nadipiscing elit, sed do eiusmod tempor incididunt\n  ut labore et dolore magna aliqua."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvName"
         app:layout_goneMarginTop="100dp"
 
         />
+
 
 
     <Button
@@ -103,5 +104,8 @@
         app:layout_constraintStart_toEndOf="@id/btnFollow"
         app:layout_constraintTop_toBottomOf="@id/tvDescription"
         />
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

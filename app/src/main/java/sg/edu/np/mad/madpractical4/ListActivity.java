@@ -43,7 +43,7 @@ public class ListActivity extends AppCompatActivity {
             int randomNum = random.nextInt(10000000);
             String name = "Name" + randomNum;
             int randomnumber = random.nextInt(10000000);
-            String description = "Description" + randomnumber;
+            String description = "Descriptions" + randomnumber;
             boolean isfollowed = random.nextBoolean();
             int randomid = random.nextInt(1000);
             User user = new User(name, description, randomid, isfollowed);

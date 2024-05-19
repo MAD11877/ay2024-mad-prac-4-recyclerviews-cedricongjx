@@ -63,11 +63,11 @@ public class UserAdapter extends RecyclerView.Adapter<UserViewHolder> {
         char[] chars = (user.name).toCharArray();
         if (chars[chars.length -1] != '7')
         {
-            ImageView img = holder.itemView.findViewById(R.id.bigimage);
+            ImageView img = holder.itemView.findViewById(R.id.bigimg);
             img.setVisibility(View.GONE);
         }
         else{
-            ImageView img = holder.itemView.findViewById(R.id.bigimage);
+            ImageView img = holder.itemView.findViewById(R.id.bigimg);
             img.setVisibility(View.VISIBLE);
         }
 
